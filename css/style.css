@@ -1,0 +1,67 @@
+body{
+    background-image: url("back.jpg");
+}
+
+.app-title{
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    color:bisque ;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.weather-search{
+    display: flex;
+    justify-content: center;
+    size:40%;
+
+}
+
+.searchBox{
+    padding: 10px;
+    width: 50%;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.submit{
+    width: 10%;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    border-left: 75%;
+    background: slateblue;
+}
+
+.weather-details{
+    display: flex;
+    align-items: center;
+
+}
+
+.weather-today{
+    margin-left: 20%;
+    margin-bottom: 25px;
+    color: snow;
+    font-size:large;
+}
+
+
+ .weather-next-week{
+    display: flex;
+    align-items: space-between;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 10px;
+    color: snow;
+    font-size: x-large;
+
+ }
+
+.weather-forecast-item{
+    margin: 0 20px 20px;
+}
